@@ -1,14 +1,14 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const murmur = document.getElementById("murmur");
+    const pay = document.getElementById("murmur");
     document.addEventListener("mousemove", function (event) {
-    const x = event.clientX;
-    const y = event.clientY;
+        const x = event.clientX;
+        const y = event.clientY;
 
-    murmurs.textContent = `X: ${event.clientX}, Y: ${event.clientY}`;
-    if (x > 500 || y > 500) {
-        murmurs.style.color = "white";
-    } else {
-        murmurs.style.color = "pink";
-    }
+        pay.textContent = `X: ${event.clientX}, Y: ${event.clientY}`;
+        if (x > 500 || y > 500) {
+            pay.style.color = "blue";
+        } else {
+            pay.style.color = "pink";
+        }
     });
 });
