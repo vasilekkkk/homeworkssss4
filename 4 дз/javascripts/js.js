@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const chtot = document.getElementById("murmur");
+    const murmur = document.getElementById("murmur");
     document.addEventListener("mousemove", function (event) {
     const x = event.clientX;
     const y = event.clientY;
